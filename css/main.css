@@ -3,15 +3,20 @@ html {
 }
 
 .masthead {
-
+  background-image: url("../images/leaf-bg");
+  background-repeat: repeat-x;
+  background-color: #588477;
+  border-top: 3px solid;
 }
 
 .logo {
   text-align: center;
+  color: #fff
 }
 
 .nav {
   text-align: center;
+  color: rgba(16, 52, 41, 0)
 }
 
 .nav a {
