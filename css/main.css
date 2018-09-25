@@ -3,32 +3,39 @@ html {
 }
 
 .masthead {
-  background-image: url("../images/leaf-bg");
-  background-repeat: repeat-x;
+  background-image: url("../images/leaf-bg.svg");
+  background-repeat: repeat;
   background-color: #588477;
   border-top: 3px solid;
+  border-color: #2d5a4d;
 }
 
 .logo {
   text-align: center;
-  color: #fff
+  color: #fff;
+  background-image: url(".../images/two-leaves.svg");
 }
 
 .nav {
   text-align: center;
-  color: rgba(16, 52, 41, 0)
+  color: rgba(16, 52, 41, 0);
 }
 
 .nav a {
   text-decoration: none;
+  border: 3px solid;
+  border-color: #2d5a4d;
+  color: rgba(16, 52, 41, 0);
 }
 
 .nav a:hover {
-
+  text-decoration: none;
+  color: #2d5a4d;
+  background-image: url(".../images/leaf-icon.svg");
 }
 
 .banner {
-
+background-image: image();
 }
 
 .banner-content {
