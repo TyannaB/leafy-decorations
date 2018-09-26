@@ -43,20 +43,19 @@ html {
 
 .banner {
   background:
-  linear-gradient(to top, rgba(16, 52, 41, .8) 5%, rgba(16, 52, 41, 0) 50%) no-repeat center bottom,
-  url("../images/banner.jpg") no-repeat center bottom;
+    linear-gradient(to top, rgba(16, 52, 41, .8) 5%, rgba(16, 52, 41, 0) 50%) no-repeat center bottom,
+    url("../images/banner.jpg") no-repeat center bottom;
   background-position: center;
   background-size: cover;
-
 }
 
 .banner-content {
   color: #fff;
   padding-top: 301px;
   background-position: top;
-  background-image: url(".../images/two-leaves.svg");
-
-
+  background-image: url("../images/two-leaves.svg");
+  background-size: 100px;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (min-width: 60em) {
